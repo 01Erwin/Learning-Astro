@@ -1,0 +1,12 @@
+---
+const { title } = Astro.props;
+---
+
+<a href="/blog"> Back to Blog</a>
+
+<article>
+    <h1>{title}</h1>
+    <slot/>
+</article>
+
+<hr />
